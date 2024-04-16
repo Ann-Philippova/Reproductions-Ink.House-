@@ -1,0 +1,383 @@
+@media (max-width: 1199px) {
+    .container {
+        margin: 0 39px;
+      }
+    
+    .collection-info {
+        max-width: 690px;
+    }
+    
+    .collection-title {
+        font-size: 30px;
+    }
+
+    .collection-title img {
+        width: 60px;
+        height: 60px;
+    }
+
+    .collection-title h2 {
+        width: 370px;
+    }
+
+    .banner-title {
+        font-size: 50px;
+    }
+
+    .team-title {
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+
+    .team-text {
+        font-size: 16px;
+    }
+
+    .footer-info {
+        padding: 0 39px;
+        flex-direction: column;
+    }
+
+    .footer-icon {
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+
+    .footer-img {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-table {
+        flex-wrap: wrap;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #C3D1C6;
+    }
+}
+
+@media (max-width: 996px) {
+    .header-row {
+       flex-wrap: wrap;
+       padding: 16px 24px;
+    }
+
+    .banner-text {
+        font-size: 18px;
+        padding-bottom: 40px;
+    }
+
+    .mix-btn, a.mix-btn {
+        font-size: 18px;
+        padding: 14px 40px;
+    }
+
+    .portfolio__title {
+        margin-bottom: 40px;
+    }
+
+    .heading {
+        font-size: 24px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .card-art__img img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .card__desc {
+        font-size: 16px;
+        padding-top: 15px;
+    }
+
+    .card-art__title h4 {
+        font-size: 24px;
+    }
+
+    .card-art__price {
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+
+    .card-art-btn {
+        padding: 20px 60px;
+    }
+
+    .footer-text {
+        font-size: 16px;
+    }
+
+    .footer-text a {
+        font-size: 16px;
+    }
+
+    .footer-item {
+        margin-top: 20px;
+    }
+
+    .footer-item th {
+        font-size: 16px;
+    }
+
+    .footer-item td{
+        font-size: 16px;
+    }
+
+    .footer-icon-text {
+        flex-direction: row;
+    }
+}
+
+@media (max-width: 950px) {
+    .heading {
+        font-size: 30px;
+    }
+
+    .banner-title {
+        font-size: 40px;
+    }
+
+    .banner-slide {
+        margin-top: 20px;
+    }
+
+    .collection-text {
+        padding-bottom: 34px;
+    }
+
+    .card-art-btn {
+        padding: 20px 60px;
+    }
+
+    .card-art__img img{
+        /*width: 290px;
+        height: 422px;*/
+    }
+
+    .team-info {
+        flex-wrap: wrap;
+    }
+
+    .team-info-text {
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 890px) {
+    
+}
+
+@media (max-width: 780px){
+    .container {
+        margin: 0 33px;
+    }
+
+    .banner {
+        margin-bottom: 45px;
+    }
+
+    .banner-img img {
+        padding-top: 40px;
+      }
+
+    .header-row {
+        flex-direction: column;
+        padding: 16px 32px;
+    }
+
+    .header-nav {
+        padding-top: 16px;
+        border-top: 1px #C3D1C6 solid;
+    }
+
+    .icon {
+        margin: 0 auto;
+        padding-bottom: 16px;
+    }
+
+    .nav-menu a {
+        font-size: 18px;
+    }
+
+    .banner-text {
+        font-size: 16px;
+        padding-bottom: 11px;
+        padding-top: 10px;
+    }
+
+    .banner-title {
+        font-size: 36px;
+        line-height: 100%;
+    }
+    
+    .heading {
+        font-size: 24px;
+    }
+
+    .heading span {
+        font-size: 30px;  
+    }
+
+    .portfolio {
+        margin-top: 45px;
+        margin-bottom: 17px;
+    }
+
+    .card-art__link {
+        width: 240px;
+    }
+
+    .card-art-btn {
+        padding: 10px 40px;
+    }
+
+    .card-art__title p {
+        font-size: 16px;
+    }
+
+    .collection {
+        padding: 50px 0;
+    }
+
+    .collection-title img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .collection-title h2 {
+        width: 261px;
+        font-size: 24px;
+    }
+
+    .collection-text {
+        padding-bottom: 20px;
+    }
+
+    .collection-text p {
+        font-size: 16px;
+    }
+
+    .team-title {
+        margin-bottom: 20px;
+    }
+
+    .team {
+        margin: 40px 0;
+    }
+
+    .team-text {
+        margin-bottom: 10px;
+    }
+
+    .team-info-img img {
+        max-width: 90%;
+    }
+
+    .team-info-text {
+        margin-top: 20px;
+    }
+
+    .footer-info {
+        padding: 0px;
+    }
+
+    .footer-text a {
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 575px) {
+    .mobile-nav-button {
+        display: flex;
+    }
+
+    .nav-menu {
+        display: none;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-slide {
+        margin-top: 50px;
+    }
+
+    .team-img {
+        column-gap: 25px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        margin: 0 15px;
+    }
+
+    .banner-slide {
+        margin-top: 60px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .mix-btn, a.mix-btn {
+        padding: 13px 28px;
+    }
+
+    .banner-text {
+        padding-bottom: 14px;
+        padding-top: 14px;
+    }
+
+    .portfolio {
+        margin-top: 60px;
+        margin-bottom: 27px;
+    }
+
+    .collection-title {
+        font-size: 24px;
+        line-height: 100%;
+    }
+
+    .collection-text {
+        padding-top: 20px;
+        font-size: 16px;
+    }
+
+    .team-info-img img {
+        max-width: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .team-text {
+        line-height: 140%;
+        margin-bottom: 20px;
+    }
+
+    .card-art__link {
+        width: 290px;
+    }
+
+    .footer {
+        margin-top: 90px;
+    }
+
+    .footer-img img {
+        margin-bottom: 20px;
+    }
+
+    .footer-text a {
+        font-size: 16px;
+    }
+
+    .footer-img {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
